@@ -3,8 +3,8 @@ WIFI_SSID = "<some>"
 WIFI_PASSWORD = "<some>"
 
 HEATING_RELAY_PIN = 1 -- GPIO 5
-RELAY_ON = gpio.LOW
-RELAY_OFF = gpio.HIGH
+RELAY_ON = gpio.HIGH
+RELAY_OFF = gpio.LOW
 
 --## MQTT
 MQTT_CLIENT_ID = "heat_relay"
